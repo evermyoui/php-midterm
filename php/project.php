@@ -27,7 +27,6 @@ if(!isset($_SESSION['username'])) {
         </div>
 
         <h1>Project Description</h1>
-
         <h2>
         H-Auto: A Proposed Online Smart Gardening Monitoring System for Vegetables using Microcontrollers
         </h2>

@@ -19,7 +19,6 @@ if(!isset($_SESSION['username'])) {
 <div class="page-wrapper">
     <div class="content">
 
-        
         <div class="navigation">
             <a href="success.php">Admin Page</a>
             <a href="project.php">Project Description</a>
