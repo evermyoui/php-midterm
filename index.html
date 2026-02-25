@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-Auto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to H-Auto</h1>
+    <div class="container">
+        <!-- use display flex here at input class -->
+        <div class="input-class">
+            <form action="./php/login.php" method="POST">
+                <fieldset>
+                    <legend>Admin</legend>
+                        <label for="myAdmin">Username: </label>
+                        <input type="text" name="myAdmin" placeholder="Enter your username">
+
+                        <label for="myPassword">Password: </label>
+                        <input type="password" name="myPassword" placeholder="Enter your password">
+
+                        <input type="submit">
+                        <input type="reset">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
