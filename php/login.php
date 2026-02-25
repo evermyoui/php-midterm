@@ -7,6 +7,8 @@
 </head>
 <body>
     <?php
+    session_start();
+
         if(
             isset($_POST['myAdmin']) &&
             isset($_POST['myPassword'])
@@ -17,6 +19,8 @@
                 $adminUsername === "admin" &&
                 $adminPassword === "123"
             ){
+                 $_SESSION['username'] = $adminUsername;
+                 
                 //go to dashboard page
                 header("location: success.php");
                 exit();
