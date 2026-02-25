@@ -7,8 +7,6 @@
 </head>
 <body>
     <?php
-        $adminUsername = $_POST['myAdmin'];
-        $adminPassword = $_POST['myPassword'];
         if(
             isset($_POST['myAdmin']) &&
             isset($_POST['myPassword'])

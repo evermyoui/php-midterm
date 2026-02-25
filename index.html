@@ -7,23 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to H-Auto</h1>
-    <div class="container">
-        <!-- use display flex here at input class -->
-        <div class="input-class">
-            <form action="./php/login.php" method="POST">
-                <fieldset>
-                    <legend>Admin</legend>
-                        <label for="myAdmin">Username: </label>
-                        <input type="text" name="myAdmin" placeholder="Enter your username">
+    <div class="page-wrapper">
+        <div class="split">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to H-Auto</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                    </p>
+                </div>
+            </section>
 
-                        <label for="myPassword">Password: </label>
-                        <input type="password" name="myPassword" placeholder="Enter your password">
+            <aside class="card">
+                <div class="card-inner">
+                    <h2 class="card-title">User Login</h2>
+                    <form class="login-form" action="./php/login.php" method="POST">
+                        <div class="field">
+                            <label for="myAdmin">Username</label>
+                            <input type="text" name="myAdmin" placeholder="Enter your username">
+                        </div>
 
-                        <input type="submit">
-                        <input type="reset">
-                </fieldset>
-            </form>
+                        <div class="field">
+                            <label for="myPassword">Password</label>
+                            <input type="password" name="myPassword" placeholder="Enter your password">
+                        </div>
+
+                        <div class="buttons">
+                            <input type="submit" value="Login">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+            </aside>
         </div>
     </div>
 </body>
