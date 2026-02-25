@@ -12,7 +12,7 @@ if(!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <title>Admin Page - H-Auto</title>
-    <link rel="stylesheet" href="../style.css">
+   
 </head>
 <body>
 
