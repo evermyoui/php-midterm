@@ -20,10 +20,15 @@ if(!isset($_SESSION['username'])) {
     <div class="content">
 
         <div class="navigation">
-            <a href="success.php">Admin Page</a>
-            <a href="project.php">Project Description</a>
-            <a href="members.php">Members</a>
-            <a href="logout.php">Logout</a>
+            <div class="left-nav">
+                <a href="success.php">Admin Page</a>
+                <a href="project.php">Project Description</a>
+                <a href="members.php">Members</a>
+            </div>
+
+            <div class="right-nav">
+                <a href="logout.php">Logout</a>
+            </div>
         </div>
 
         <h1>Project Description</h1>
