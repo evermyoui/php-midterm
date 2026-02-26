@@ -11,8 +11,8 @@ if(!isset($_SESSION['username'])) {
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Project Description - H-Auto</title>
-   
+    <title>Project Description</title>
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 

@@ -12,7 +12,7 @@ if(!isset($_SESSION['username'])) {
 <head>
     <meta charset="UTF-8">
     <title>Members - H-Auto</title>
-  
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 
@@ -29,6 +29,7 @@ if(!isset($_SESSION['username'])) {
         <h1>Members Description - Group 1</h1>
 
         <h3>Hussin, Said Jr. B. - Project Leader</h3>
+        <!-- ADD KAYO PIC NATIN ALBA -->
         <p>
         He guides the whole group throughout the project. He organizes tasks,
         sets schedules, and ensures that the group follows the instructions
