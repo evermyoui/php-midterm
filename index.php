@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <div class="page-wrapper">
+    <div class="page-rapper">
         <div class="split">
             <section class="hero">
                 <div class="hero-content">
-                    <h1>Welcome to H-Auto</h1>
+                    <h1>Welcome to<br>H-Auto</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut laoreet dolore magna aliquam erat volutpat. hdfhd
+                        A Proposed Online Smart Gardening Monitoring System for Vegetables using Microcontrollers
                     </p>
                 </div>
             </section>
@@ -35,7 +34,7 @@
 
                         <div class="buttons">
                             <input type="submit" value="Login">
-                            <input type="reset" value="Reset">
+                            <input type="reset" value="Clear">
                         </div>
                     </form>
                 </div>

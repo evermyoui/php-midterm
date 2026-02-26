@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-    <h1>Try Again!</h1>
-    <a href="../index.html">Back to Login</a>
+    <div class="fail-container">
+        <h1>Wrong Credentials!</h1>
+        <a id="backBtn" href="../index.php">Back to Login</a>
+    </div>
 </body>
 </html>

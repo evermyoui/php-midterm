@@ -1,8 +1,11 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['username'])) {
-    header("Location: fail.php");
+if (!isset($_SESSION['username'])) {
+    echo "<h1>Not Properly Logged In</h1> <br>
+          <p>You must log in to access this page.</p>
+          <a href='../index.php'>Go to Login Page</a>";
+    
     exit();
 }
 ?>
@@ -35,7 +38,6 @@ if(!isset($_SESSION['username'])) {
                 <h2>
                     H-Auto: A Proposed Online Smart Gardening Monitoring System for Vegetables using Microcontrollers
                 </h2>
-
                 <p>
                     Welcome to the Admin Page of our proposed capstone project.
                     H-Auto is designed to improve vegetable farming through
@@ -44,8 +46,8 @@ if(!isset($_SESSION['username'])) {
             </div>
         </div>
         
-        <div class="about-container">
-            <div class="about">
+        <div class="content-container">
+            <div class="column">
                 <h3>About Group 1</h3>
                 <p>
                     Group 1 is composed of four dedicated members who collaborated
@@ -55,7 +57,7 @@ if(!isset($_SESSION['username'])) {
                 </p>
             </div>
 
-            <div class="about">
+            <div class="column">
                 <h3>Our Goal</h3>
                 <p>
                     Our goal is to integrate smart agriculture and IoT technology
