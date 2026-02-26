@@ -76,3 +76,92 @@ h3 {
     gap: 100px;
     padding: var(--my-padding);
 }
+
+/* Page Background */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #3d4642, #2d6a4f, #95d5b2);
+}
+
+/* Main Container */
+.split {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Left Side */
+.hero {
+    flex: 1;
+    padding: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* Right Side */
+.card {
+    flex: 1;
+    background: #f6fff8; /* soft off-white green */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Title */
+.card-title {
+    text-align: center;
+    color: #2d6a4f;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.login-form .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #cce3de;
+    border-radius: 20px;
+    outline: none;
+}
+
+/* Buttons */
+.login-form .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.login-form input[type="submit"] {
+    background: #2d6a4f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form input[type="reset"] {
+    background: #e9f5ec;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 760px) {
+    .split {
+        flex-direction: column;
+    }
+}
