@@ -30,7 +30,7 @@ if (!isset($_SESSION['username'])) {
             </div>
 
             <div class="right-nav">
-                <a href="logout.php">Logout</a>
+                <a href="logout.php" onclick="return confirm('Are you sure you want to log out?');">Logout</a>
             </div>
         </div>
 
